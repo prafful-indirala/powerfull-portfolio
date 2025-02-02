@@ -1,0 +1,8 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="200" fill="#e6f7ff"/>
+  <circle cx="200" cy="100" r="70" fill="#3498db" opacity="0.7"/>
+  <circle cx="180" cy="80" r="50" fill="#2980b9" opacity="0.5"/>
+  <circle cx="220" cy="120" r="40" fill="#1abc9c" opacity="0.6"/>
+  <text x="200" y="190" font-family="Arial, sans-serif" font-size="16" fill="#34495e" text-anchor="middle">AI Trends 2025</text>
+</svg>
+
