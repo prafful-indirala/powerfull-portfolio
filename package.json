@@ -64,12 +64,13 @@
     "expo-file-system": "latest",
     "react-native": "latest",
     "three": "latest",
+    "@react-three/fiber": "latest",
     "@emotion/is-prop-valid": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
-    "@react-three/fiber": "latest",
+    "@react-three/drei": "latest",
     "framer-motion": "latest",
-    "@react-three/drei": "latest"
+    "react-scroll": "latest"
   },
   "devDependencies": {
     "@types/node": "^22",
