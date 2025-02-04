@@ -9,14 +9,33 @@ import AIInnovationHub from "@/components/ai-innovation-hub"
 import ServicesFreelancing from "@/components/services-freelancing"
 import BlogInsights from "@/components/blog-insights"
 import ContactMe from "@/components/contact-me"
+import SplashCursor from "@/components/splash-cursor"
+import BlurText from "@/components/blur-text"
 
 const Avatar = dynamic(() => import("@/components/avatar"), { ssr: false })
+
+const handleAnimationComplete = () => {
+  console.log('Animation completed!');
+};
+
 
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center">
+      <SplashCursor />
       <div className="min-h-screen flex flex-col items-center justify-center py-2">
-        <h1 className="text-6xl font-bold text-center mb-4">Building the Future, One App at a Time</h1>
+
+        <BlurText
+          text="Building the Future, One App at a Time"
+          delay={150}
+          animateBy="words"
+          direction="top"
+          onAnimationComplete={handleAnimationComplete}
+          className="text-5xl font-bold text-center mb-4"
+        />
+
+
+
         <p className="text-2xl text-center mb-8">Full-Stack Developer | AI Enthusiast | Entrepreneur</p>
         <div className="w-64 h-64 mb-8">
           <Canvas>
